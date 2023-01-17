@@ -1,0 +1,126 @@
+body{
+   
+    background-color: #900C3F;
+
+}
+div{
+     display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 3rem;
+    height: 100vh;
+    margin: 20px ;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+header{
+     background-image: linear-gradient(180deg, #581845, #900C3F, #C70039, #FF5733, #FFC300);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px ;
+    
+}
+h1{
+    color: rgb(212, 200, 200);
+    font-size: 3rem;
+    height: 3rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+}
+#title{
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-image:gra ;
+    
+}
+#btn{
+    width: 12%;
+    height:2.9rem ;
+    padding: 0;
+    font-size:1.5rem ;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.5rem;
+    margin-top: 0;
+    width: 50%;
+    
+    
+}
+li{
+    display: grid;
+    grid-template-columns:5% 90% 5% ;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   height: 2.5rem;
+   margin-right: 34px;
+   border: 1px solid;
+   border-radius: 10px;
+   color: white;
+    
+
+
+}
+li:hover{
+    background-color:rgb(67, 54, 54) ;
+}
+
+.nav__check{
+    text-align: left;
+}
+.nav__remove{
+    text-align: right;
+}
+
+.nav__check{
+    color: rgba(111, 111, 111, 0);
+    
+}
+
+
+li{
+    background-color: rgb(190, 182, 182);
+    height: 3.5rem;
+    border:1px solid rgba(255, 255, 255, 0.246) ;
+    
+}
+.nav_click{
+    background-color: rgb(130, 129, 129);
+    color: white;
+    text-decoration: line-through;
+    
+}
+button{
+background-color:  rgba(255, 255, 255, 0);
+cursor: pointer;
+border: none;
+}
+.click{
+
+color: rgba(255, 255, 255, 1);
+
+}
+.white{
+    color: rgb(253, 253, 253);
+}
+.nav__remove{
+    color: white;
+
+}
